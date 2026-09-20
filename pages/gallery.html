@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Galerie — Fatma</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;0,700;1,400;1,600&family=DM+Sans:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="../css/style.css" />
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="../index.html" class="logo">Fatma<span>.</span></a>
+      <input type="checkbox" id="menu-toggle" />
+      <label for="menu-toggle" class="nav-toggle"><span></span><span></span><span></span></label>
+      <nav class="nav-links">
+        <a href="../index.html" class="btn btn-primary">Accueil</a>
+        <a href="about.html" class="btn btn-primary">À propos</a>
+        <a href="gallery.html" class="btn btn-primary">Galerie</a>
+        <a href="contact.html" class="btn btn-primary">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="page-hero">
+      <div class="container page-hero-content">
+        <div class="breadcrumb">
+          <a href="../index.html">Accueil</a><span>›</span><span>Galerie</span>
+        </div>
+        <p class="section-label">Projets & réalisations</p>
+        <h1 class="section-title">Ma galerie</h1>
+      </div>
+    </section>
+
+    <section class="gallery-section">
+      <div class="container">
+
+        <div class="projects-new-grid">
+
+          <!-- Carte 1 : Détecteur incendie -->
+          <div class="project-new-card">
+            <div class="project-new-img">
+              <img src="../images/incendie.jpg" alt="Détecteur d'incendie IoT" />
+              <span class="project-status">En cours</span>
+            </div>
+            <div class="project-new-body">
+              <div class="project-tags">
+                <span class="tag highlight">IoT</span>
+                <span class="tag">ESP32</span>
+                <span class="tag">Telegram</span>
+              </div>
+              <h3 class="project-new-title">Détecteur d'incendie intelligent</h3>
+              <p class="project-new-desc">Système IoT sur ESP32 avec capteur de température DS18B20, simulation sur Wokwi et notifications Telegram en temps réel.</p>
+            </div>
+          </div>
+
+          <!-- Carte 2 : Générateur mots de passe -->
+          <div class="project-new-card">
+            <div class="project-new-img">
+              <img src="../images/gen.jpg" alt="Générateur de mots de passe" />
+            </div>
+            <div class="project-new-body">
+              <div class="project-tags">
+                <span class="tag highlight">Sécurité</span>
+                <span class="tag">Web</span>
+              </div>
+              <h3 class="project-new-title">Générateur & Vérificateur de mots de passe</h3>
+              <p class="project-new-desc">Outil web permettant de générer des mots de passe sécurisés et d'analyser leur robustesse en temps réel.</p>
+              <a href="https://generateur-verificateur-mots-de-passe-m5hajbrdqoa8nvhahrkqnd.streamlit.app/" target="_blank" class="btn btn-primary" style="margin-top:.5rem; width:fit-content;">Voir le projet →</a>
+            </div>
+          </div>
+
+          <!-- Carte 3 : Algorithmes de tri -->
+          <div class="project-new-card">
+            <div class="project-new-img">
+              <img src="../images/vis.jpg" alt="Visualisation algorithmes de tri" />
+            </div>
+            <div class="project-new-body">
+              <div class="project-tags">
+                <span class="tag highlight">Algorithmes</span>
+                <span class="tag">Visualisation</span>
+              </div>
+              <h3 class="project-new-title">Visualisation d'algorithmes de tri</h3>
+              <p class="project-new-desc">Animation visuelle de trois algorithmes de tri — Heap Sort, Merge Sort et Quick Sort — pour comprendre leur fonctionnement.</p>
+            </div>
+          </div>
+
+          <!-- Carte 4 : Portfolio -->
+          <div class="project-new-card">
+            <div class="project-new-img">
+              <img src="../images/fatmad.jpg" alt="Portfolio" />
+            </div>
+            <div class="project-new-body">
+              <div class="project-tags">
+                <span class="tag highlight">Web</span>
+                <span class="tag">HTML5</span>
+                <span class="tag">CSS3</span>
+              </div>
+              <h3 class="project-new-title">Portfolio personnel responsive</h3>
+              <p class="project-new-desc">Site web multi-pages entièrement responsive, conçu sans JavaScript, avec animations CSS et design mobile-first.</p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div class="footer-logo">Fatma<span>.</span></div>
+      <p class="footer-copy">© 2026 Fatma · Licence 3 Informatique · UAM Dakar</p>
+      <div class="footer-social">
+        <a href="https://github.com/FatmaDieye" class="social-link" aria-label="GitHub" target="_blank" rel="noopener">💻</a>
+        <a href="https://www.linkedin.com/in/fatma-dieye-26a353239" class="social-link" aria-label="LinkedIn" target="_blank" rel="noopener">💼</a>
+        <a href="mailto:fatmadieye34@gmail.com" class="social-link" aria-label="Email">✉️</a>
+      </div>
+    </div>
+  </footer>
+
+  <a href="#" class="back-to-top" aria-label="Retour en haut">↑</a>
+
+</body>
+</html>
